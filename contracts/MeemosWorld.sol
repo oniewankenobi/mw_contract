@@ -26,8 +26,8 @@ interface IERC20 {
 
 contract MeemosWorld is ERC721A, Ownable {
 
-    string public baseURI = "ipfs://QmTtut2mT8b5SXViEhau6BCcPGtLQJiftNw8GTQheKAgT7/";
-    string public contractURI = "ipfs://QmYE2pgJqytpavboy4MN5C5fz4v8KkCZv3Qikrfr2ukKPa";
+    string public baseURI = "ipfs://placeholder/";
+    string public contractURI = "ipfs://placeholder";
     string public constant baseExtension = ".json";
     bytes32 public merkleRoot = 0x359df92a166631e5604eea4ec89a40b207a353a6d2bf2fd88f2fef3491bbc4e2;
     // Mainnet - 0xa5409ec958C83C3f309868babACA7c86DCB077c1
